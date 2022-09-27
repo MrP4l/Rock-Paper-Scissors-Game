@@ -53,7 +53,8 @@ function playRound(playerSelection, computerSelection) {
      
 }
 
-
+// Useless code with UI, used with the console.log and window.prompt
+/*
 function game() {
     for (let i = 0; i < 5; i++) {
         var choice = window.prompt("Rock, Paper or Scissors?");
@@ -87,6 +88,7 @@ function game() {
         return "It's a Tie!"
     }
 }
+*/
 
 document.getElementById('rock').addEventListener('click', function () {
     (playRound('Rock', getComputerChoice));
